@@ -28,6 +28,6 @@ public class EurekaClientApplication {
 
 	@RequestMapping("/zuul")
 	public String zuul(@RequestParam String name){
-		return "hi "+name+",Response am from port:" + port;
+		return "hi "+name+",Response from port:" + port;
 	}
 }
